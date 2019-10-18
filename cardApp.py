@@ -20,8 +20,7 @@ def main():
     print("")
     print("Please enter short playing card notation (no Jokers!) ")
     cardValueInput = input("Card Value (A, K, Q or J or a number 2 - 10): ")
-    cardSuitInput = input("Card suit (H, S, C, or D): ")
-
+    cardSuitInput = input("Card suit (H, S, C, or D): ") # We can't ask for suit separately.
 
     # Process value and assing to printable variable
 
